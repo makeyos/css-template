@@ -1,0 +1,192 @@
+#page-preloader::before { 
+  position: absolute;
+    top:50%;
+    left: center;
+    content: " ";
+  background-image: url(http://magento-137956-400703.cloudwaysapps.com/temp/soil-small.png);
+  background-size: 100% 100%;
+    width: 300px;
+    height: 15px;
+  
+}
+
+#page-preloader {
+  display: flex;
+  justify-content: center;
+}
+  @media print {
+    #page-preloader {
+      display: none; } 
+}
+#page-preloader .cssload-loader-walk > div:nth-of-type(1)::before {
+  content: url("http://magento-137956-400703.cloudwaysapps.com/temp/detector-small2.png");
+}
+#page-preloader .cssload-loader-walk > div:nth-of-type(2)::before {
+  content: url("http://magento-137956-400703.cloudwaysapps.com/temp/coin-small.png");
+}
+#page-preloader .cssload-loader-walk > div:nth-of-type(3)::before {
+  content: url("http://magento-137956-400703.cloudwaysapps.com/temp/ring-small.png");
+}
+#page-preloader .cssload-loader-walk > div:nth-of-type(4)::before {
+  content: url("http://magento-137956-400703.cloudwaysapps.com/temp/gold-small.png");
+}
+
+  #page-preloader .cssload-loader-walk > div:nth-of-type(1) {
+    display: block;
+    animation: swing-coil ease-in-out 1.5s forwards infinite alternate;
+    -o-animation: swing-coil ease-in-out 1.5s forwards infinite alternate;
+    -ms-animation: swing-coil ease-in-out 1.5s forwards infinite alternate;
+    -webkit-animation: swing-coil ease-in-out 1.5s forwards infinite alternate;
+    -moz-animation: swing-coil ease-in-out 1.5s forwards infinite alternate;
+    transform-origin: center -20000px;
+    float:left;
+    position: relative;
+	align-content: center;
+    top: 50%;
+    margin-top: -95px;
+    }
+  #page-preloader .cssload-loader-walk > div:nth-of-type(2) {
+    opacity: 0;
+    animation: FadeIn 1.5s infinite alternate;
+    -o-animation: FadeIn 1.5s infinite alternate;
+    -ms-animation: FadeIn 1.5s infinite alternate;
+    -webkit-animation: FadeIn 1.5s infinite alternate;
+    -moz-animation: FadeIn 1.5s infinite alternate;
+    position: relative;
+    align-content: center;
+    top: 50%;
+    margin-left: -65px;
+    margin-top: 63px;
+	}
+  #page-preloader .cssload-loader-walk > div:nth-of-type(3) {
+    opacity: 0;
+    animation: FadeIn2 1.5s forwards infinite;
+    -o-animation: FadeIn2 1.5s forwards infinite;
+    -ms-animation: FadeIn2 1.5s forwards infinite;
+    -webkit-animation: FadeIn2 1.5s forwards infinite;
+    -moz-animation: FadeIn2 1.5s forwards infinite;
+    position: relative;
+    align-content: center;
+    top: 50%;
+    margin-top: -80px;
+    margin-left: 40px;
+     }
+  #page-preloader .cssload-loader-walk > div:nth-of-type(4) {
+    opacity: 0;
+    animation: FadeIn3 1.5s forwards infinite alternate;
+    -o-animation: FadeIn3 1.5s forwards infinite alternate;
+    -ms-animation: FadeIn3 1.5s forwards infinite alternate;
+    -webkit-animation: FadeIn3 1.5s forwards infinite alternate;
+    -moz-animation: FadeIn3 1.5s forwards infinite alternate;
+    position: relative;
+    align-content: center;
+    top: 50%;
+    left: 157px;
+    margin-top: -4px;
+     }
+
+@keyframes swing-coil {
+  0% { transform: rotate(0.3deg); }
+  100% { transform: rotate(-0.4deg); }
+}
+
+@-o-keyframes swing-coil {
+  0% { transform: rotate(0.3deg); }
+  100% { transform: rotate(-0.4deg); }
+}
+
+@-ms-keyframes swing-coil {
+  0% { transform: rotate(0.3deg); }
+  100% { transform: rotate(-0.4deg); }
+}
+
+@-webkit-keyframes swing-coil {
+  0% { transform: rotate(0.3deg); }
+  100% { transform: rotate(-0.4deg); }
+}
+
+@-moz-keyframes  swing-coil {
+  0% { transform: rotate(0.3deg); }
+  100% { transform: rotate(-0.4deg); }
+}
+
+
+@keyframes FadeIn {
+  0% { opacity: 1; }
+  65% { opacity: 0; }
+}
+
+@-o-keyframes FadeIn {
+  0% { opacity: 1; }
+  65% { opacity: 0; }
+}
+
+@-ms-keyframes FadeIn {
+  0% { opacity: 1; }
+  65% { opacity: 0; }
+}
+
+@-webkit-keyframes FadeIn {
+  0% { opacity: 1; }
+  65% { opacity: 0; }
+}
+
+@-moz-keyframes  FadeIn {
+  0% { opacity: 1; }
+  65% { opacity: 0; }
+}
+
+@keyframes FadeIn2 {
+  20% { opacity: 0; }
+  40% { opacity: 1; }
+  85% { opacity: 0; }
+}
+
+@-o-keyframes FadeIn2 {
+  20% { opacity: 0; }
+  40% { opacity: 1; }
+  85% { opacity: 0; }
+}
+
+@-ms-keyframes FadeIn2 {
+  20% { opacity: 0; }
+  40% { opacity: 1; }
+  85% { opacity: 0; }
+}
+
+@-webkit-keyframes FadeIn2 {
+  20% { opacity: 0; }
+  40% { opacity: 1; }
+  85% { opacity: 0; }
+}
+
+@-moz-keyframes FadeIn2 {
+  20% { opacity: 0; }
+  40% { opacity: 1; }
+  85% { opacity: 0; }
+}
+
+@keyframes FadeIn3 {
+  65% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-o-keyframes FadeIn3 {
+  65% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-ms-keyframes FadeIn3 {
+  65% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-webkit-keyframes FadeIn3 {
+  65% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-moz-keyframes FadeIn3 {
+  65% { opacity: 0; }
+  100% { opacity: 1; }
+}
