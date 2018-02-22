@@ -13285,7 +13285,7 @@ textarea {
   min-height: 2em;
   vertical-align: baseline;
   background: #FFF;
-  border: 1px solid #70822c; }
+  border: 1px solid #f5f5f5; }
   .input-text.mage-error,
   input[type="text"].mage-error,
   input[type="email"].mage-error,
@@ -14118,7 +14118,7 @@ body._has-modal-custom .modal-custom-overlay {
 
 .select2-dropdown {
   background-color: #f5f5f5;
-  border: 1px solid #70822c;
+  border: 1px solid #f5f5f5;
   display: block;
   position: absolute;
   left: -100000px;
@@ -14203,7 +14203,7 @@ body._has-modal-custom .modal-custom-overlay {
 
 .select2-container--default .select2-selection--single {
   background-color: #FFF;
-  border: 1px solid #70822c;
+  border: 1px solid #f5f5f5;
   border-radius: 2px;
   outline: none;
   font-size: 12px;
@@ -14819,11 +14819,11 @@ table:not(.totals).table {
       border-left: none; }
     @media (min-width: 768px) {
       table:not(.totals).table th, table:not(.totals).table td {
-        border-left: solid 1px #70822c; } }
+        border-left: solid 1px #f5f5f5; } }
   table:not(.totals).table thead th {
     font-weight: 700;
-    border-top: solid 1px #70822c;
-    border-bottom: solid 1px #70822c; }
+    border-top: solid 1px #f5f5f5;
+    border-bottom: solid 1px #f5f5f5; }
   @media (min-width: 768px) {
     table:not(.totals).table tbody tr:nth-child(odd) {
       background: #292929; }
@@ -14839,18 +14839,18 @@ table:not(.totals).table {
       table:not(.totals).table:not(#product-comparison) td:before {
         font-weight: bold;
         display: block;
-        border-bottom: solid 1px #70822c;
+        border-bottom: solid 1px #f5f5f5;
         content: attr(data-th);
         margin-bottom: 10px; }
       table:not(.totals).table:not(#product-comparison) td:first-child {
         background: #f5f5f5; } }
 table:not(.totals).table-bordered {
   border-top: 2px solid #70822c;
-  border-left: 1px solid #70822c; }
+  border-left: 1px solid #f5f5f5; }
   table:not(.totals).table-bordered th,
   table:not(.totals).table-bordered td {
-    border-right: 1px solid #70822c;
-    border-bottom: 1px solid #70822c; }
+    border-right: 1px solid #f5f5f5;
+    border-bottom: 1px solid #f5f5f5; }
 table:not(.totals).data-table {
   width: 100%; }
   table:not(.totals).data-table th,
@@ -15012,6 +15012,3 @@ dl dd {
   padding-left: 2rem; }
 
 /*# sourceMappingURL=style.css.map */
-
-.page-products .products-grid .product.photo.product-item-photo {
-  float: none!important;}

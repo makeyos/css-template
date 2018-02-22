@@ -3,7 +3,7 @@
     top:50%;
     left: center;
     content: " ";
-  background-image: url(/temp/soil-small.png);
+  background-image: url(http://magento-137956-400703.cloudwaysapps.com/temp/soil-small.png);
   background-size: 100% 100%;
     width: 300px;
     height: 15px;
@@ -19,16 +19,16 @@
       display: none; } 
 }
 #page-preloader .cssload-loader-walk > div:nth-of-type(1)::before {
-  content: url("/temp/detector-small2.png");
+  content: url("http://magento-137956-400703.cloudwaysapps.com/temp/detector-small2.png");
 }
 #page-preloader .cssload-loader-walk > div:nth-of-type(2)::before {
-  content: url("/temp/coin-small.png");
+  content: url("http://magento-137956-400703.cloudwaysapps.com/temp/coin-small.png");
 }
 #page-preloader .cssload-loader-walk > div:nth-of-type(3)::before {
-  content: url("/temp/ring-small.png");
+  content: url("http://magento-137956-400703.cloudwaysapps.com/temp/ring-small.png");
 }
 #page-preloader .cssload-loader-walk > div:nth-of-type(4)::before {
-  content: url("/temp/gold-small.png");
+  content: url("http://magento-137956-400703.cloudwaysapps.com/temp/gold-small.png");
 }
 
   #page-preloader .cssload-loader-walk > div:nth-of-type(1) {
@@ -87,27 +87,27 @@
 
 @keyframes swing-coil {
   0% { transform: rotate(0.3deg); }
-  100% { transform: rotate(-0.4deg); }
+  100% { transform: rotate(-0.3deg); }
 }
 
 @-o-keyframes swing-coil {
   0% { transform: rotate(0.3deg); }
-  100% { transform: rotate(-0.4deg); }
+  100% { transform: rotate(-0.3deg); }
 }
 
 @-ms-keyframes swing-coil {
   0% { transform: rotate(0.3deg); }
-  100% { transform: rotate(-0.4deg); }
+  100% { transform: rotate(-0.3deg); }
 }
 
 @-webkit-keyframes swing-coil {
   0% { transform: rotate(0.3deg); }
-  100% { transform: rotate(-0.4deg); }
+  100% { transform: rotate(-0.3deg); }
 }
 
 @-moz-keyframes  swing-coil {
   0% { transform: rotate(0.3deg); }
-  100% { transform: rotate(-0.4deg); }
+  100% { transform: rotate(-0.3deg); }
 }
 
 
